@@ -33,4 +33,7 @@ class CodeSnapMainLine2018Tests: XCTestCase {
         }
     }
     
+    func testAnswers() {
+     
+    }
 }

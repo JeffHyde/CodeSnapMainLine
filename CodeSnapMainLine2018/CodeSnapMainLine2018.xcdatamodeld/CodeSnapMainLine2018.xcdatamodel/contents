@@ -1,4 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="14460.32" systemVersion="18C54" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Fixture" representedClassName="Fixture" syncable="YES" codeGenerationType="class">
+        <attribute name="fixtureCount" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="information" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="oneAllowed" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="orderIndex" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="units" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Measurements" representedClassName="Measurements" syncable="YES" codeGenerationType="class">
+        <attribute name="information" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderIndex" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="placeHolderText" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="requiresNegative" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="Double" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Fixture" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="Measurements" positionX="154.08984375" positionY="-20.23828125" width="128" height="135"/>
+    </elements>
 </model>
