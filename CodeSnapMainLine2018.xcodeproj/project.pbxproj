@@ -202,6 +202,7 @@
 				BF3B84C021FE4FC300E1BF75 /* TableHeaderView.swift */,
 				BF3B84C221FE50BF00E1BF75 /* TableHeaderLabel.swift */,
 				BF3B84C421FE50F900E1BF75 /* TableHeaderButton.swift */,
+				BF7E5B2D21EE5521008C677F /* Cells */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -212,7 +213,6 @@
 				BFD8B05F2105B37F00AE8F89 /* MeasurmentViewController.swift */,
 				BFF04E89210644DF00DC8575 /* FixturesViewController.swift */,
 				BFAD32D421091C0900FB9A7E /* ResultsViewController.swift */,
-				BF7E5B2D21EE5521008C677F /* Cells */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
