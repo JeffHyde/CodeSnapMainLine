@@ -223,14 +223,14 @@
 			children = (
 				BF0EEDEB2105AE76004926F0 /* CodeSnapMainLine2018.xcdatamodeld */,
 				BF615F6921EC427500AE6AB8 /* CoreDataHelper.swift */,
-				BFD8B0612105B6B700AE8F89 /* Model.swift */,
-				BF1CB9482200E5DC005777B8 /* Extensions.swift */,
 				BF77183921EBCF0400FF02F6 /* PersistanceService.swift */,
 				BF1BAF9821EC21F500BB0E17 /* DataInit.swift */,
-				BF2D348E210A56AD00002A52 /* AlertUtility.swift */,
+				BFD8B0612105B6B700AE8F89 /* Model.swift */,
+				BF1CB9482200E5DC005777B8 /* Extensions.swift */,
 				BF1CB9442200E431005777B8 /* KeyboardHelper.swift */,
 				BF3B84BE21FE4AA100E1BF75 /* AnimationUtility.swift */,
 				BF1CB9462200E593005777B8 /* ResultHelper.swift */,
+				BF2D348E210A56AD00002A52 /* AlertUtility.swift */,
 				BF1BE0E721D938150082A94F /* AnswerUtility.swift */,
 			);
 			path = Model;
