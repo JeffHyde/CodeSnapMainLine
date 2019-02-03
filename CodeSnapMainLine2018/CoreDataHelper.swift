@@ -56,4 +56,3 @@ extension Array {
         return  fixtureData.sorted(by: {$0.orderIndex < $1.orderIndex})
     }
 }
-

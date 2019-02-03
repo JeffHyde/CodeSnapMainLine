@@ -25,9 +25,6 @@ class AlertUtility {
   
 }
 
-
-
-
 //MARK: - TODO
 //extension UIViewController: MFMailComposeViewControllerDelegate {
 //
@@ -41,7 +38,7 @@ class AlertUtility {
 //            let mail = MFMailComposeViewController()
 //            mail.mailComposeDelegate = self
 //            mail.setToRecipients(["magnitudecompany@gmail.com"])
-//            mail.setMessageBody("Code Snap Main Line Is Not Saving", isHTML: true)
+//            mail.setMessageBody("", isHTML: true)
 //            delegate.present(mail, animated: true) {
 //
 //            }

@@ -30,5 +30,3 @@ class TableHeaderView: UIView {
         addSubview(label)
     }
 }
-
-
