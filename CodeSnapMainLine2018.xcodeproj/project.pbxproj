@@ -30,6 +30,7 @@
 		BF77183A21EBCF0400FF02F6 /* PersistanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF77183921EBCF0400FF02F6 /* PersistanceService.swift */; };
 		BF7E5B3321EE8532008C677F /* Assets.xcassets in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0EEDEE2105AE77004926F0 /* Assets.xcassets */; };
 		BF82AD3A21DC8FEC007E1A06 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF82AD3921DC8FEC007E1A06 /* Colors.xcassets */; };
+		BF9C78A82206915C00375407 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = BF9C78A72206915C00375407 /* Readme.md */; };
 		BFAC470521E157F200DEEC33 /* PlaceHolderFontSizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAC470421E157F200DEEC33 /* PlaceHolderFontSizer.swift */; };
 		BFAD32D521091C0900FB9A7E /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFAD32D421091C0900FB9A7E /* ResultsViewController.swift */; };
 		BFD8B0602105B37F00AE8F89 /* MeasurmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD8B05F2105B37F00AE8F89 /* MeasurmentViewController.swift */; };
@@ -85,6 +86,7 @@
 		BF74F46E21EA409300BF2540 /* MeasurmentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurmentTableViewCell.swift; sourceTree = "<group>"; };
 		BF77183921EBCF0400FF02F6 /* PersistanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistanceService.swift; sourceTree = "<group>"; };
 		BF82AD3921DC8FEC007E1A06 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		BF9C78A72206915C00375407 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = SOURCE_ROOT; };
 		BFAC470421E157F200DEEC33 /* PlaceHolderFontSizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceHolderFontSizer.swift; sourceTree = "<group>"; };
 		BFAD32D421091C0900FB9A7E /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		BFD8B05F2105B37F00AE8F89 /* MeasurmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurmentViewController.swift; sourceTree = "<group>"; };
@@ -144,9 +146,8 @@
 		BF0EEDE32105AE76004926F0 /* CodeSnapMainLine2018 */ = {
 			isa = PBXGroup;
 			children = (
+				BF9C78A72206915C00375407 /* Readme.md */,
 				BF0EEDE42105AE76004926F0 /* AppDelegate.swift */,
-				BF0EEDEB2105AE76004926F0 /* CodeSnapMainLine2018.xcdatamodeld */,
-				BF615F6921EC427500AE6AB8 /* CoreDataHelper.swift */,
 				BFAD32D821091C6500FB9A7E /* Model */,
 				BFAD32D621091C3000FB9A7E /* View */,
 				BFAD32D721091C4000FB9A7E /* Controller */,
@@ -220,6 +221,8 @@
 		BFAD32D821091C6500FB9A7E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				BF0EEDEB2105AE76004926F0 /* CodeSnapMainLine2018.xcdatamodeld */,
+				BF615F6921EC427500AE6AB8 /* CoreDataHelper.swift */,
 				BFD8B0612105B6B700AE8F89 /* Model.swift */,
 				BF1CB9482200E5DC005777B8 /* Extensions.swift */,
 				BF77183921EBCF0400FF02F6 /* PersistanceService.swift */,
@@ -339,6 +342,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9C78A82206915C00375407 /* Readme.md in Resources */,
 				BF0EEDF22105AE77004926F0 /* LaunchScreen.storyboard in Resources */,
 				BF82AD3A21DC8FEC007E1A06 /* Colors.xcassets in Resources */,
 				BF0EEDEF2105AE77004926F0 /* Assets.xcassets in Resources */,
