@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 import MessageUI
 
-class AlertUtility {
+struct AlertUtility {
     static func alert(title:String,
                       message:String,
                       view:UIViewController) {

@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-class PersistanceService {
+struct PersistanceService {
 
     private init() {}
     static var context: NSManagedObjectContext {

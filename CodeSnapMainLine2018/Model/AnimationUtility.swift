@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class AnimationUtility {
+struct AnimationUtility {
     static func isHiddenForAnimation(view: UIView) {
         view.alpha = 0
         view.isHidden = true

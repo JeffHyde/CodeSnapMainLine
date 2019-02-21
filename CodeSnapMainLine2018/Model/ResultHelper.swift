@@ -9,7 +9,7 @@
 import Foundation
 
 class ResultHelper {
-    static func chosenFixtures() -> [Fixture] {
+    class func chosenFixtures() -> [Fixture] {
         var chosenFixtures = [Fixture]()
         let allFixtures = Array<Fixture>.fixturesSorted()
         for item in allFixtures {
@@ -20,7 +20,7 @@ class ResultHelper {
         return chosenFixtures
     }
     
-    static func measurmentArray(actualPsi: Double,
+    class func measurmentArray(actualPsi: Double,
                                 psi: Double,
                                 height: Double,
                                 distance: Double) -> [String] {
@@ -32,7 +32,7 @@ class ResultHelper {
         ]
     }
     
-    static func getTotalFixtureUnits(chosenFixtures: [Fixture]) -> Double {
+    class func getTotalFixtureUnits(chosenFixtures: [Fixture]) -> Double {
         var totals = [Double]()
         for item in chosenFixtures {
             let count = item.fixtureCount
@@ -47,7 +47,7 @@ class ResultHelper {
         return totalUnits
     }
     
-    static func actualPsi(psi: Double,
+    class func actualPsi(psi: Double,
                           height: Double) -> Double {
         if height <= -1.0 {
             return psi + 0.5 * abs(Double(height))
@@ -60,7 +60,7 @@ class ResultHelper {
         }
     }
     
-    static func meterSize(answer: [String]) -> [String] {
+    class func meterSize(answer: [String]) -> [String] {
         let meter = "Meter:  \(answer[0])"
         let main = "Main & Branch Lines:  \(answer[1])"
         

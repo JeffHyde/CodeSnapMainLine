@@ -10,7 +10,7 @@ import Foundation
 import CoreData
 
 class CoreDataHelper {
-    static func getEntity<T: NSManagedObject>(entity: T.Type) -> [T] {
+    class func getEntity<T: NSManagedObject>(entity: T.Type) -> [T] {
         var result = [T]()
         let entityName = String(describing: entity)
         let fetchRequest = NSFetchRequest<T>(entityName: entityName)
@@ -23,7 +23,7 @@ class CoreDataHelper {
         return result
     }
     
-    static func saveMeasurementValue(indexPath: Int16,
+    class func saveMeasurementValue(indexPath: Int16,
                                      valueToSave value: Double) {
         let arrayOfMeasurements = CoreDataHelper.getEntity(entity: Measurements.self) as [Measurements]
         let measurement = arrayOfMeasurements.first {$0.orderIndex == indexPath}
@@ -34,7 +34,7 @@ class CoreDataHelper {
         })
     }
     
-    static func saveFixtureCount(indexPath: Int,
+    class func saveFixtureCount(indexPath: Int,
                                  valueToSave count: Int16) {
         let arrayOfFixtures = CoreDataHelper.getEntity(entity: Fixture.self) as [Fixture]
         let fixture = arrayOfFixtures.first {$0.orderIndex == indexPath}

@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class KeyboardHelper {
+struct KeyboardHelper {
     static func containerView(width:CGFloat) -> UIView {
         let view = UIView(frame: CGRect(x: 0,
                                         y: 0,

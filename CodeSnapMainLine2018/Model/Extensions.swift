@@ -19,12 +19,12 @@ extension StringProtocol {
     var double: Double? {
         return Double(self)
     }
-    var float: Float? {
-        return Float(self)
-    }
-    var integer: Int? {
-        return Int(self)
-    }
+//    var float: Float? {
+//        return Float(self)
+//    }
+//    var integer: Int? {
+//        return Int(self)
+//    }
 }
 
 extension Notification.Name {

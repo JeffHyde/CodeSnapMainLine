@@ -9,7 +9,7 @@
 import Foundation
 
 class DataInit {
-    static func initCoreData() {
+    class func initCoreData() {
         //MARK: - Measurments
         let psi = Measurements(context: PersistanceService.context)
         let elevation = Measurements(context: PersistanceService.context)
@@ -138,7 +138,7 @@ class DataInit {
         DataInit.save()
         
     }
-    static func save() {
+    class func save() {
         PersistanceService.saveContext(completion: {
             UserDefaults.standard.set(true,
                                       forKey: DefaultKeys.dataSet)

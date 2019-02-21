@@ -13,7 +13,7 @@ class AnswerUtility {
     /*
      Data has been removed for copyright.  Please ask the devloper what this function should do.
  */
-    static func checkAnswer(psi:Double,
+    class func checkAnswer(psi:Double,
                             distance:Double,
                             fixtureUnits:Double) -> [String] {
         return ["Not Avaliable","Not Avaliable"]
